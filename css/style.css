@@ -96,12 +96,12 @@ body {
 .header__container {
   align-items: center;
 }
-.header__logo-link{
+.header__logo-link {
   margin-right: auto;
 }
 .header__logo {
- width: 115px;
- height: 44px; 
+  width: 115px;
+  height: 44px;
 }
 
 .header__nav {
@@ -116,11 +116,20 @@ body {
   line-height: 20px;
   color: #1c1c1c;
 }
-/* .btn {
-} */
+.btn {
+  margin: 0;
+  padding: 0;
+  padding: 15px 35px;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #3172B9;
+  border-radius: 3px;
+}
 /* .header__btn {
 } */
-/* header start */
+/* header end */
 
 /* .main {} */
 
