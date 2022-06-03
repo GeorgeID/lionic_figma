@@ -13,7 +13,7 @@
 
   <header class="header" id="home">
     <div class="container flex header__container">
-      <a href="#" class="header__logo-link">
+      <a href="#footer" class="header__logo-link">
         <img src="img/logo.svg" class="header__logo" alt="Logo Lionic">
       </a>
       <nav class="header__nav">
@@ -129,7 +129,7 @@
       </div>
     </section>
 
-    <!-- #2 section Articles -->
+    <!-- #3 section Articles -->
     <section id="articles" class="articles section__offset">
       <div class="container">
         <h2 class="section__title articles_title">Articles</h2>
@@ -211,7 +211,7 @@
       </div>
     </section>
 
-    <!-- #3 section Clients -->
+    <!-- #4 section Clients -->
     <section id="clients" class="clients section__offset">
       <div class="container">
         <h2 class="section__title clients_title">Clients</h2>
@@ -219,7 +219,9 @@
         <ul class="list-reset clients__list flex">
 
           <li class="clients__item flex">
-            <p class="clients__item_desc">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.</p>
+            <p class="clients__item_desc">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+              consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim
+              qui blandit odio dignissim qui blandit molestie consequat.</p>
             <div class="clients__user flex">
               <div class="clients__avatar">
                 <img src="img/client-1.jpg" alt="John Armstrong">
@@ -237,7 +239,9 @@
           </li>
 
           <li class="clients__item flex">
-            <p class="clients__item_desc">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.</p>
+            <p class="clients__item_desc">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+              consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim
+              qui blandit odio dignissim qui blandit molestie consequat.</p>
             <div class="clients__user flex">
               <div class="clients__avatar">
                 <img src="img/client-2.jpg" alt="Elizabeth Martin">
@@ -255,7 +259,9 @@
           </li>
 
           <li class="clients__item flex">
-            <p class="clients__item_desc">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.</p>
+            <p class="clients__item_desc">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+              consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim
+              qui blandit odio dignissim qui blandit molestie consequat.</p>
             <div class="clients__user flex">
               <div class="clients__avatar">
                 <img src="img/client-3.jpg" alt="Robin Soutby">
@@ -276,7 +282,7 @@
       </div>
     </section>
 
-    <!-- #4 section Contacts -->
+    <!-- #5 section Contacts -->
     <section id="contacts" class="contacts section__offset">
       <div class="container">
         <h2 class="section__title contacts_title">Contacts</h2>
@@ -294,7 +300,7 @@
               <a href="tel:+79876543210" class="contacts__item_link">+7 (987) 654-32-10</a>
               <a href="tel:+71234567890" class="contacts__item_link">+7 (123) 456-78-90</a>
             </li>
-            
+
             <li class="contacts__item flex contacts_emails-icon">
               <strong class="contacts__item_caption">Email Us</strong>
               <a href="mailto:example@example.com" class="contacts__item_link">example@example.com</a>
@@ -306,12 +312,54 @@
       </div>
     </section>
 
-    <!-- #5 section Join Us -->
-    <!-- <section id="join-us" class="join-us"></section> -->
+    <!-- #6 section Join Us -->
+    <section id="join" class="join-us section__offset">
+      <div class="container">
+        <h2 class="section__title join-us_title">Join us</h2>
+
+        <p class="section__desc join-us__desc">
+          Take control of&nbsp;your paid subscriptions today!
+        </p>
+
+        <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="form">
+
+          <div class="form-top flex">
+            <div class="form-left flex">
+              <input class="form__input" type="text" name="name" placeholder="Name" required>
+              <input class="form__input" type="email" name="email" id="" placeholder="E-mail" required>
+              <input class="form__input" type="tel" name="phone" id="" placeholder="Phone" required>
+              
+              <select class="form__select" name="country" id="" aria-label="country">
+                <option value="Country" disabled selected>Country</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+                <option value="Spain">Spain</option>
+                <option value="Estonia">Estonia</option>
+              </select>
+            </div>
+            <div class="form-right">
+              <textarea class="form__textarea" name="comment" id="" placeholder="Comment"></textarea>
+            </div>
+          </div>
+
+          <div class="form__bottom flex">
+            <div class="form__wrap flex">
+              <button type="submit" class="btn form__btn">GET STARTED</button>
+              <label>
+                <input class="form__checkbox" type="checkbox" required>
+                <span class="form__check"> I agree with the <a href="#">user agreement</a></span>
+              </label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
 
   </main>
 
-  <footer class="footer">
+  <footer id="footer" class="footer">
     <div class="container flex footer-container">
 
       <div class="footer-left flex">
