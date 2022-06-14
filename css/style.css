@@ -5,6 +5,7 @@
 .header {
 }
 .container {
+  max-width: 940px;
 }
 .header__logo {
 }
