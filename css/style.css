@@ -408,10 +408,6 @@ body {
 .clients {
   border-bottom: 1px solid #dadada;
 }
-/* .clients_title {
-} */
-/* .clients__list {
-} */
 .clients__item {
   flex-direction: column;
   width: 370px;
@@ -522,6 +518,17 @@ body {
 }
 .contacts__item_link:not(:last-child) {
   margin-bottom: 5px;
+}
+
+.contacts__item_link:focus {
+  outline: 1px solid #71a7e2;
+}
+.contacts__item_link:hover {
+  color: #71a7e2;
+}
+.contacts__item_link:active{
+  outline: none;
+  color: #0e3b6c;
 }
 /* contacts end */
 
