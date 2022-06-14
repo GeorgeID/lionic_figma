@@ -708,19 +708,40 @@ body {
   margin-right: 32px;
 }
 .social-link {
-  display: block;
+  display: flex;
   width: 24px;
   height: 24px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  align-items: center;
+  justify-content: center;
 }
-.social-link-tw {
-  background-image: url("../img/icon-twitter.svg");
+.social-link svg {
+  fill: #000;
 }
-.social-link-linkedin {
-  background-image: url("../img/icon-linkin.svg");
+.social-link-mail svg {
+  fill: transparent;
+  stroke: #000;
 }
-.social-link-mail {
-  background-image: url("../img/icon-email.svg");
+
+.social-link:focus {
+  outline-offset: 2px;
+  outline: 1px solid #71a7e2;
 }
+
+.social-link:hover svg {
+  fill: #71a7e2;
+}
+.social-link-mail:hover svg {
+  fill: transparent;
+  stroke: #71a7e2;
+}
+
+.social-link:active svg {
+  /* outline: none; */
+  fill: #3172b9;
+}
+.social-link-mail:active svg {
+  /* outline: none; */
+  fill: transparent;
+  stroke: #3172b9;
+}
+
