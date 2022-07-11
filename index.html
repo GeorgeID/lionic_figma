@@ -7,6 +7,7 @@
   <title>Lionic mod#6 Skillbox</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body class="body">
@@ -43,7 +44,12 @@
         </ul>
       </nav>
       
-      <button class="header__btn btn btn-reset">FREE TRIAL</button>
+      <button id="trial" class="header__btn btn btn-reset">FREE TRIAL</button>
+      <button id="burger-menu" class="btn-reset burger">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
     </div>
   </header>
 
@@ -73,7 +79,7 @@
         <p class="section__desc services__desc">
           Lionic guides you on&nbsp;making decisions for all aspects of&nbsp;your end-of-life plans.
         </p>
-        <ul class="list-reset services__items flex">
+        <ul class="list-reset services__list flex">
           <li class="services__item flex">
             <svg class="services__item-icon" width="68" height="66" viewBox="0 0 68 66" fill="none"
               xmlns="http://www.w3.org/2000/svg">
@@ -167,7 +173,7 @@
                     29 Nov 2021
                   </time>
                   <h3 class="blog__preview-title">
-                    Rights and obligations
+                    Consulting 
                   </h3>
                   <p class="blog__preview-descr">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
@@ -189,7 +195,7 @@
                     29 Nov 2021
                   </time>
                   <h3 class="blog__preview-title">
-                    Consulting
+                    Rights and obligations
                   </h3>
                   <p class="blog__preview-descr">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
@@ -242,9 +248,9 @@
                 <img src="img/client-1.jpg" alt="John Armstrong">
               </div>
               <div class="clients__text">
-                <div class="clients__name">
+                <span class="clients__name">
                   John Armstrong
-                </div>
+                </span>
                 <span class="clients__post">
                   Customer
                 </span>
@@ -333,7 +339,7 @@
         <h2 class="section__title join-us__title">Join us</h2>
 
         <p class="section__desc join-us__desc">
-          Take control of&nbsp;your paid subscriptions today!
+          Lionic guides you on making decisions for all aspects of your end-of-life plans.
         </p>
 
         <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="form">
